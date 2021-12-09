@@ -1,0 +1,35 @@
+{
+   "endpoints":[
+      {
+         "url":"http://127.0.0.1:8080/login/publishers/",
+         "type":"GET",
+         "authentication":{
+            "username":"admin",
+            "password":"admin123"
+         }
+      },
+      {
+         "url":"http://127.0.0.1:8080/login/publisher/",
+         "type":"GET",
+         "path_var":"int",
+         "authentication":{
+            "username":"admin",
+            "password":"admin123"
+         }
+      },
+      {
+         "url":"http://localhost:8080/publisher",
+         "type":"GET",
+         "headers":[
+            {
+               "name":"name",
+               "type":"String"
+            }
+         ],
+         "authentication":{
+            "username":"admin",
+            "password":"admin123"
+         }
+      }
+   ]
+}
