@@ -1,6 +1,6 @@
 # JA-PP-SecureSoftware
 
-ITC4447 - Secure software Development - Final project (Part B)
+ITC4447 - Fall 2021 - Final project (Part B)
 
 # Description
 
